@@ -61,8 +61,8 @@
                                         ?>
                                     </td>
                                     <td>
-                                        <a href=""><span class="badge rounded-pill text-bg-primary">Edit</span></a>
-                                        <a href=""><span class="badge rounded-pill text-bg-danger">Delete</span></a>
+                                        <a href="edit-category.php?id=<?php echo $row['id']; ?>"><span class="badge rounded-pill text-bg-primary">Edit</span></a>
+                                        <a href="sql/del-category.php?id=<?php echo $row['id']; ?>"><span class="badge rounded-pill text-bg-danger">Delete</span></a>
                                     </td>
                                 </tr>
                             <?php
